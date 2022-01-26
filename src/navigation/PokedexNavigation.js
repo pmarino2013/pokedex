@@ -11,12 +11,12 @@ export default function PokedexNavigation() {
       <Stack.Screen
         name="Pokedex"
         component={Pokedex}
-        options={{ title: "Pokedex" }}
+        options={{ title: "", headerTransparent: true }}
       />
       <Stack.Screen
         name="Pokemon"
         component={Pokemon}
-        options={{ title: "Pokemon" }}
+        options={{ title: "", headerTransparent: true }}
       />
     </Stack.Navigator>
   );
